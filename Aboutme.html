@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+    </head>
+    <style>
+        h1{
+    color: blueviolet;
+    margin-right: 50px;
+    padding-left: 50px;
+}
+.header *{
+    background-color: lawngreen;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: lightslategray;
+}
+a:link{
+    color: chocolate;
+}
+a:visited{
+    color: crimson;
+}
+.menu{
+    margin-right: 50px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+p,h2{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #808088;
+    
+}
+body{
+    background-color: #808088;
+}
+.item p{
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+    </style>
+<body>
+<div class = "header">
+<h1>Deepam Sipani</h1>
+<div class="menu">
+<a href="index.html">About_me</a>
+</div>
+</div>
+<h2>Games designed by me</h2>
+<p>These games are designed with help of Javascript on apps like visual studio code and p5.js, in accordance to libraries like matter.js,
+    p5.js. </p>
+<div class="grid">
+<div class="item">
+<a href="https://editor.p5js.org/DEEPAM/full/bGRB94dir"><img src="https://via.placeholder.com/150"/></a>
+<p>Trex Runner Game.</p>
+</div>
+<div class="item">
+<a href="https://editor.p5js.org/DEEPAM/full/qu68qEJoW"><img src="https://via.placeholder.com/150"/></a>
+<p>Zombieland</p>
+</div>
+<div class="item">
+<a href="https://deepam03.github.io/AngryBirdC-31/"><img src="https://via.placeholder.com/150"/></a>
+<p>AngryBirds</p>
+</div>
+</div>
+<div class="footer">
+<a href= "https://www.facebook.com"><img src="Icons/fb.png"width = 50 height = 50/></a>
+<a href="#"><img src="Icons/insta.png"width = 50 height = 50></a>
+<a href="#"><img src="Icons/youtube.png"width = 50 height = 50></a>
+</div>
+</body>
+</html>
